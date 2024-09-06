@@ -13,6 +13,34 @@ Comandos.
 * php artisan serve = Levanta el server
 * php artisan serve --port 8001 = Especificamos el puerto
 * php artisan make:model Post -h = Ver las helkpers o ayudas que ofrece
-* php artisan make:model Post -fm --api
+* php artisan make:model Category -fm --api
 * php artisan migrate = Crea las tablas en la bd
+* php artisan migrate:fresh = Se ocupa cuando ya ejecutastes las migraciones y queres volverlas a ejecutar
 * php artisan r:l = Lista las rutas de la aplicacion
+
+
+Tabla fuertes y tablas debiles
+
+Tablas fuertes son las que no dependen de una llave foranea (category)
+Tabla debil es la que depende de otra tabla (product) lleva llave foranea
+
+
+Las relaciones existen a nivel de bd y laravel
+
+* Primero Tenes que crear los modelos, migraciones y controladores (en caso aya tabla existente no crearas migraciones)
+* Segundo configura o crea las rutas para poder ver la data en el archivo api.php
+* Tercero Programa los controladores
+
+
+Plugins.
+
+Laravel Blade formatter
+Laravel Blade Snippets
+Laravel Extra Intellisense
+Laravel goto view
+Laravel Snippets
+PHP Debug
+PHP Extension Pack
+PHP Intelephense
+PHP IntelliSense
+Prettier - Code formatter
