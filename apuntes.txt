@@ -1,0 +1,18 @@
+Empezando todo desde cero
+
+* Controladores, Migraciones, Modelos y Routes.
+
+Si existe base de datos.
+
+* Controladores, Modelos y Routes.
+
+
+
+Comandos.
+
+* php artisan serve = Levanta el server
+* php artisan serve --port 8001 = Especificamos el puerto
+* php artisan make:model Post -h = Ver las helkpers o ayudas que ofrece
+* php artisan make:model Post -fm --api
+* php artisan migrate = Crea las tablas en la bd
+* php artisan r:l = Lista las rutas de la aplicacion
